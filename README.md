@@ -236,7 +236,7 @@ spec:
   - http:
       paths:
       - pathType: Prefix
-        path: /deployment
+        path: /
         backend:
           service:
             name: phpmyadmin-service
