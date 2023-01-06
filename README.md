@@ -250,7 +250,6 @@ $ minikube addons enable ingress
 * Créer un DNS pour le host: phpmyadmin.local
 ```bash=
 $sudo vim /etc/hosts
-192.168.233.130 phpmyadmin.local
 192.168.49.2 phpmyadmin.local
 ```
 > L'IP de l'ingress s'obtient en faisant la commande suivante: 
